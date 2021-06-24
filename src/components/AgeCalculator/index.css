@@ -1,0 +1,65 @@
+.bg-container {
+  background-image: linear-gradient(to right, #43cbff, #9708cc);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.12);
+  border: 4px double #8e1dd2;
+}
+.heading {
+  font-family: 'roboto';
+  font-weight: 600;
+  font-size: 30px;
+  margin: 10px;
+}
+.input-box {
+  width: 20vw;
+  height: 30px;
+  padding: 10px;
+  font-family: 'roboto';
+  margin: 10px;
+}
+.results-msg {
+  color: #8e1dd2;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 13px;
+  margin: 10px;
+}
+.error-msg {
+  color: #ff0b37;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 13px;
+  margin: 10px;
+}
+.button {
+  background-image: linear-gradient(to right, #43cbff, #9708cc);
+  border: 0px;
+  height: 35px;
+  width: 126px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 12px;
+  margin: 15px;
+  cursor: pointer;
+}
+.persons-img {
+  height: 40vh;
+  width: 50vw;
+}
